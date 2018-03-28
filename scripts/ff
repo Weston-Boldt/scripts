@@ -1,0 +1,5 @@
+#!/bin/sh
+cwd=$(pwd);
+cd ~/software/firefox/;
+./firefox &
+cd $cwd
