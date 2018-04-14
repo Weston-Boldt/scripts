@@ -1,0 +1,5 @@
+#!/binsh
+cwd=$(pwd);
+cd ~/software/waterfox;
+./waterfox &
+cd $cwd
