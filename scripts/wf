@@ -1,5 +1,6 @@
 #!/bin/sh
 cwd=$(pwd);
+#TODO FIXME find a better place for waterfox to live
 cd ~/software/waterfox;
 ./waterfox 2>&1 >/dev/null &
 cd $cwd
